@@ -42,18 +42,18 @@ The data set contains the following diseases:
 ## Conclusions
 1. Model 1:
    Around the 19th and 20th epochs, we can also notice differences in loss functions in training and validation data. This is a clear instance of overfitting, in      which the model learnt too much from the training dataset and is unable to perform well on the validation dataset.
-   - Training Accuracy: 89.290
-   - Validation Accuracy: 51.68
+   - Training Accuracy: 86.89
+   - Validation Accuracy: 54.36
   
 2. Model 2 with augmented data:
    Training accuracy has not increased when compared to the basic model, however the gap between training and validation accuracy has narrowed. In addition,           validation accuracy is marginally improved over the original model. The gap between training loss and validation loss is also narrowed. And we see that             overfitting has been decreased as a result of data augmentation.
-   - Training Accuracy: 60.49
-   - Validation Accuracy: 54.14
+   - Training Accuracy: 63.00
+   - Validation Accuracy: 56.82
   
 3. Final Model after rectifing class imbalance:
    Because to augmentation and class imbalance management, training and validation accuracy has enhanced dramatically. The model does not overfit. This model can      serve as the final model.
-   - Training Accuracy: 95.44
-   - Validation Accuracy: 79.96
+   - Training Accuracy: 95.73
+   - Validation Accuracy: 84.34
 
 
 
